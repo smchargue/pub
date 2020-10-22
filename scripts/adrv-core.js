@@ -1,3 +1,4 @@
+var AderantDrive = {}; 
 (function (ns) {
 
     /*
