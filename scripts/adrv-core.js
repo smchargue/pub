@@ -1,3 +1,4 @@
+console.log('type of __HS is ' + typeof __HS);
 var AderantDrive = {}; 
 (function (ns) {
 
