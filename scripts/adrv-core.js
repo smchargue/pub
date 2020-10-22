@@ -8,7 +8,7 @@ var AderantDrive = {};
       on an Aderant Drive site rather than a realtime skin renderning from the HS server.
     */
 
-    ns.isSharePoint() = function() {
+    ns.isSharePoint = function() {
         // return true if sharepoint.com is any part of the URL 
         return location.href.indexOf('sharepoint.com') > 0; 
     }
