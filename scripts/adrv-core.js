@@ -8,7 +8,7 @@ if (console) {
 (function (ns) {
 
     /*
-      Namespace : AderantDrive
+      Namespace : __HS.Modules.adrv
       Provides useful functions for interfacing Handshake elements rendered by the Aderant Drive web Part with 
       Sharepoint Elements. Also includes methods that are neccessary only in the context of a skin renedered
       on an Aderant Drive site rather than a realtime skin renderning from the HS server.
