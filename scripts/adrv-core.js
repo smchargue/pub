@@ -1,4 +1,10 @@
-console.log('type of __HS is ' + typeof __HS);
+var __HS = __HS || {}; 
+__HS.Modules = __HS.Modules || {};
+
+if (console) {
+    console.log('Loading Aderant Drive Core library.  Type of __HS is ' + typeof __HS);
+}
+
 var AderantDrive = {}; 
 (function (ns) {
 
@@ -139,4 +145,4 @@ var AderantDrive = {};
             });
         }
     }
-}(AderantDrive));
+})(__HS.Modules.adrv = __HS.MOdules.adrv || {});
