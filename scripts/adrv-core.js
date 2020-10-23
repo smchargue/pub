@@ -5,7 +5,6 @@ if (console) {
     console.log('Loading Aderant Drive Core library.  Type of __HS is ' + typeof __HS);
 }
 
-var AderantDrive = {}; 
 (function (ns) {
 
     /*
